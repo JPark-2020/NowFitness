@@ -1,0 +1,1 @@
+web gunicorn nowfitness.wgi:application --log-file -
