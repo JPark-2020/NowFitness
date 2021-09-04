@@ -1,1 +1,1 @@
-web gunicorn nowfitness.wsgi:application --log-file -
+web gunicorn nowfitness:app
