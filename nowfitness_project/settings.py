@@ -68,7 +68,12 @@ WSGI_APPLICATION = 'nowfitness_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'nfitnessdb',
+        'NAME': 'depj3ee8osodpe',
+        'HOST': 'ec2-44-198-24-0.compute-1.amazonaws.com',
+        'PORT': 5432,
+        'USER': 'pshzjlueghhbmq',
+        'PASSWORD': '158f6dab6fd62565b1bfce04aa7f19b13a65cf911e8cd9a9aa94ec19ce0127e7'
+
     }
 }
 
