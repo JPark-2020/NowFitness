@@ -1,0 +1,9 @@
+{% extends 'base.html' %} {%load static%} {% block content %}
+<div class="entry-update-page">
+  <h1>Update: {{entry.entry_workout}} {{entry.date_custom}}</h1>
+
+  <form action="" method="post">
+    {% csrf_token %} {{form.as_p}} <input type="submit" value="Submit" />
+  </form>
+</div>
+{% endblock %}

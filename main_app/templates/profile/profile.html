@@ -1,0 +1,27 @@
+{%extends 'base.html'%}
+{%load static%}
+
+{%block content%}
+
+
+
+<h2>{{user_profile.user.username}}</h2>
+
+{%if user_profile.image%}
+<img class="profileimage" src="{{user_profile.image.url}}">
+{%else%}
+<img class="profileimage" src="{%static 'images/avatar.png'%}">
+{%endif%}
+
+
+
+
+
+<form method="POST" enctype="multipart/form-data">
+    {%csrf_token%}
+    {{form}}
+    <button>Upload!</button>
+</form>
+
+
+{%endblock%}
