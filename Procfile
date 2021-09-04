@@ -1,1 +1,1 @@
-web gunicorn nowfitness:app
+web: gunicorn nowfitness_project.wsgi
