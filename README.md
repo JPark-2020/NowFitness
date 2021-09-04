@@ -9,3 +9,7 @@ Clone Repository
 
 Install Packages
 - npm install
+
+
+Screenshots of pages and features can be found here:
+https://github.com/JPark-2020/NOWfitnessv2
