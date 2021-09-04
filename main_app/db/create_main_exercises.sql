@@ -38,7 +38,7 @@ INSERT INTO main_app_exercise(name, image, description, related_workout)
     ('Bridge Pose', 'https://static01.nyt.com/images/2016/12/02/well/move/yoga_body_images-slide-WG6T/yoga_body_images-slide-WG6T-blog480.jpg', 'This text is reserved for a description, related_workout of the exercise above.','Yoga');
 
 
--- Boxing
+
 
 INSERT INTO main_app_workout(name, description)
   VALUES
@@ -69,7 +69,7 @@ INSERT INTO main_app_exercise(name, image, description, related_workout)
     ('Rear Uppercut', 'https://cdn.shopify.com/s/files/1/2510/5836/files/The_Rear_Uppercut_Punch_480x480.jpg?v=1607361853', 'This text is reserved for a description, related_workout of the exercise above.', 'Boxing');
 
 
-  -- Bodyweight
+  
 
 INSERT INTO main_app_workout(name, description)
   VALUES
